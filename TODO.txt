@@ -1,0 +1,3 @@
+unificar puja con pujaoro
+
+select itemEntry,sum(count) from item_instance where owner_guid= ? group by itemEntry order by itementry desc
